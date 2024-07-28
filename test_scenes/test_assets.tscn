@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3 uid="uid://drhs8fdp5lu1i"]
+
+[ext_resource type="Texture2D" uid="uid://detxkf081dmks" path="res://addons/Tiny Swords/Factions/Knights/Troops/Warrior/Red/Warrior_Red.png" id="1_tarlo"]
+[ext_resource type="PackedScene" uid="uid://bvo17ax1r38sv" path="res://player/player.tscn" id="2_ctc33"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="WarriorRed" type="Sprite2D" parent="."]
+position = Vector2(2530, -777)
+texture = ExtResource("1_tarlo")
+
+[node name="Player" parent="." instance=ExtResource("2_ctc33")]
